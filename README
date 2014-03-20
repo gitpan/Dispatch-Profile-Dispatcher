@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Dispatch-Profile-Dispatcher,
-version 0.001:
+version 0.002:
 
-  Provides a sequential dispatch method for the Dispatch::Profile package.
+  Dispatch::Profile sequential dispatcher
 
 This software is copyright (c) 2014 by James Spurin.
 

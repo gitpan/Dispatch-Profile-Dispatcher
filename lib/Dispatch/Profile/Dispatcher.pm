@@ -7,7 +7,7 @@ package Dispatch::Profile::Dispatcher;
 use Moose;
 use Moose::Exporter;
 Moose::Exporter->setup_import_methods( as_is => ['dispatch'] );
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 #-------------------------------------------------------------------------------
 #   Subroutine : dispatch
@@ -30,7 +30,7 @@ sub dispatch {
 __PACKAGE__->meta->make_immutable;
 1;
 
-# ABSTRACT: Provides a sequential dispatch method for the Dispatch::Profile package.
+# ABSTRACT: Dispatch::Profile sequential dispatcher
 
 __END__
 
@@ -40,11 +40,11 @@ __END__
 
 =head1 NAME
 
-Dispatch::Profile::Dispatcher - Provides a sequential dispatch method for the Dispatch::Profile package.
+Dispatch::Profile::Dispatcher - Dispatch::Profile sequential dispatcher
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

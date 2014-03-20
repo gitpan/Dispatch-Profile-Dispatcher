@@ -1,5 +1,5 @@
 ---
-abstract: 'Provides a sequential dispatch method for the Dispatch::Profile package.'
+abstract: 'Dispatch::Profile sequential dispatcher'
 author:
   - 'James Spurin <james@spurin.com>'
 build_requires: {}
@@ -15,4 +15,4 @@ name: Dispatch-Profile-Dispatcher
 requires:
   Moose: '0'
   Moose::Exporter: '0'
-version: '0.001'
+version: '0.002'

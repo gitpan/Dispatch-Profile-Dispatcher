@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Provides a sequential dispatch method for the Dispatch::Profile package.",
+  "ABSTRACT" => "Dispatch::Profile sequential dispatcher",
   "AUTHOR" => "James Spurin <james\@spurin.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "Moose::Exporter" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
